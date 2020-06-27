@@ -1,0 +1,54 @@
+html,body {
+	font-family: Helvetica;
+	font-size: 18px;
+	color: #fff;
+	padding: 0;
+	margin: 0
+}
+.container {
+	position: relative;
+	display: block;
+	width: fit-content;
+	margin: auto;
+}
+#canvas {
+	/*ukuran sudah ditentukan*/
+	width: 750px;
+	height: 750px;
+	background: #000;
+}
+.bannerMulai,
+.bannerUlangi {
+	position: absolute;
+	top: calc( (100% - 750px) + 30% );
+	left: calc( (100% - 750px) + 22% );
+	text-align: center;
+}
+.bannerUlangi {
+	display: none;
+}
+h1 {
+	color: #f00
+}
+.board {
+	position: absolute;
+	background: rgba(0,0,0,.4);
+	color: #fff;
+	padding: 10px 20px;f
+	top: 10px;
+	left: 10px;
+}
+#btnMulai {
+	color: #f00;
+	cursor: pointer;
+	font-weight: bold;
+}
+#btnUlangi {
+	background: #fff;
+	color: #000;
+	border-radius: 5px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+
+
